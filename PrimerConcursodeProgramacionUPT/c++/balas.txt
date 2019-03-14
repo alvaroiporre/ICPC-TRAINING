@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    long long t,n;
+    cin>>t;
+    for(int k=1;k<=t;k++){
+        cin>>n;
+        long long b=0,b1;
+        for(int i=1;i<=n;i++){
+            b1=(long long)i*(long long)(i+1)/2LL;
+            b+=b1;
+        }
+        cout<<k<<": "<<n<<" "<<b<<"\n";
+    }
+    return 0;
+}

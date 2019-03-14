@@ -1,0 +1,172 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string cad;
+    while(getline(cin,cad)){
+        for(int i=0;i<cad.size();i++){
+            switch (cad[i]){
+            case 'a':
+                cout<<'e';
+                break;
+            case 'A':
+                cout<<'E';
+                break;
+            case 'E':
+                cout<<'A';
+                break;
+            case 'e':
+                cout<<'a';
+                break;
+            case 'i':
+                cout<<'o';
+                break;
+            case 'I':
+                cout<<'O';
+                break;
+            case 'o':
+                cout<<'i';
+                break;
+            case 'O':
+                cout<<'I';
+                break;
+            case 'Y':
+                cout<<'U';
+                break;
+            case 'y':
+                cout<<'u';
+                break;
+            case 'U':
+                cout<<'Y';
+                break;
+            case 'u':
+                cout<<'y';
+                break;
+            case 'f':
+                cout<<'g';
+                break;
+            case 'F':
+                cout<<'G';
+                break;
+            case 'm':
+                cout<<'w';
+                break;
+            case 'M':
+                cout<<'W';
+                break;
+            case 'l':
+                cout<<'c';
+                break;
+            case 'L':
+                cout<<'C';
+                break;
+            case 'r':
+                cout<<'d';
+                break;
+            case 'R':
+                cout<<'D';
+                break;
+            case 's':
+                cout<<'h';
+                break;
+            case 'S':
+                cout<<'H';
+                break;
+            case 't':
+                cout<<'n';
+                break;
+            case 'T':
+                cout<<'N';
+                break;
+            case 'q':
+                cout<<'z';
+                break;
+            case 'Q':
+                cout<<'Z';
+                break;
+            case 'j':
+                cout<<'x';
+                break;
+            case 'J':
+                cout<<'X';
+                break;
+            case 'v':
+                cout<<'k';
+                break;
+            case 'V':
+                cout<<'K';
+                break;
+            case 'p':
+                cout<<'b';
+                break;
+            case 'P':
+                cout<<'B';
+                break;
+            case 'g':
+                cout<<'f';
+                break;
+            case 'G':
+                cout<<'F';
+                break;
+            case 'w':
+                cout<<'m';
+                break;
+            case 'W':
+                cout<<'M';
+                break;
+            case 'c':
+                cout<<'l';
+                break;
+            case 'C':
+                cout<<'L';
+                break;
+            case 'd':
+                cout<<'r';
+                break;
+            case 'D':
+                cout<<'R';
+                break;
+            case 'H':
+                cout<<'S';
+                break;
+            case 'h':
+                cout<<'s';
+                break;
+            case 'n':
+                cout<<'t';
+                break;
+            case 'N':
+                cout<<'T';
+                break;
+            case 'z':
+                cout<<'q';
+                break;
+            case 'Z':
+                cout<<'Q';
+                break;
+            case 'x':
+                cout<<'j';
+                break;
+            case 'X':
+                cout<<'J';
+                break;
+            case 'k':
+                cout<<'v';
+                break;
+            case 'K':
+                cout<<'V';
+                break;
+            case 'B':
+                cout<<'P';
+                break;
+            case 'b':
+                cout<<'p';
+                break;
+            default:
+                cout<<cad[i];
+                break;
+            }
+        }
+        cout<<"\n";
+    }
+    return 0;
+}
